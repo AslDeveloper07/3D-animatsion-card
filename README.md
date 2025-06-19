@@ -39,13 +39,7 @@ Bu loyiha foydalanuvchi ustiga hover qilganda 3D tarzda aylanuvchi interaktiv ka
 ```bash
 # Git orqali yuklab oling
 git clone https://github.com/AslDeveloper07/3D-animatsion-card.git
-
-# Papkaga kiring
-cd 3d-card-project
-
-# Brauzerda index.html faylni oching
 ```
-
 ---
 
 
@@ -56,7 +50,7 @@ cd 3d-card-project
 
 | Old taraf (Rasm) | Orqa taraf (Video) |
 |------------------|--------------------|
-| ![Card Front](./img/image.png) | ![Card Back](./admin/2025-06-19%2012-33-19.mp4) |
+| ![Card Front](./admin/image%20copy.png) | ![Card Back](./admin/image.png) |
 
 > Eslatma: GitHub’da video preview to‘liq ko‘rinmaydi, lekin loyihangizda `.mp4` to‘liq o‘ynaydi.
 
