@@ -48,7 +48,7 @@ git clone https://github.com/AslDeveloper07/3D-animatsion-card.git
 
 ## 🧪 Namuna rasm va video
 
-| Old taraf (Rasm) | Orqa taraf (Video) |
+|            Old taraf (Rasm) 
 |------------------|--------------------|
 | ![Card Front](./admin/image%20copy.png) | ![Card Back](./admin/image.png) |
 
