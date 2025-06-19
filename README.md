@@ -48,8 +48,7 @@ git clone https://github.com/AslDeveloper07/3D-animatsion-card.git
 
 ## 🧪 Namuna rasm va video
 
-|            Old taraf (Rasm) 
-|------------------|--------------------|
+
 | ![Card Front](./admin/image%20copy.png) | ![Card Back](./admin/image.png) |
 
 > Eslatma: GitHub’da video preview to‘liq ko‘rinmaydi, lekin loyihangizda `.mp4` to‘liq o‘ynaydi.
