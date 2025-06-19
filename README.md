@@ -27,9 +27,8 @@ Bu loyiha foydalanuvchi ustiga hover qilganda 3D tarzda aylanuvchi interaktiv ka
 📁 3d-card-project/
 ├── 📄 index.html
 ├── 📄 style.css
-├── 📁 assets/
-│   ├── 📷 image.jpg
-│   └── 🎞 video.mp4
+├── 📁 img/
+│   ├── 📷 image.png
 └── 📄 README.md
 ```
 
@@ -39,7 +38,7 @@ Bu loyiha foydalanuvchi ustiga hover qilganda 3D tarzda aylanuvchi interaktiv ka
 
 ```bash
 # Git orqali yuklab oling
-git clone https://github.com/yourusername/3d-card-project.git
+git clone https://github.com/AslDeveloper07/3D-animatsion-card.git
 
 # Papkaga kiring
 cd 3d-card-project
@@ -49,102 +48,15 @@ cd 3d-card-project
 
 ---
 
-## 🧩 HTML namunasi
 
-```html
-<div class="card">
-  <div class="card-inner">
-    <div class="card-front">
-      <img src="./assets/image.jpg" alt="Card Front Image" />
-    </div>
-    <div class="card-back">
-      <video src="./assets/video.mp4" autoplay muted loop></video>
-    </div>
-  </div>
-</div>
-```
 
----
 
-## 🎨 CSS Asosiysi (`style.css`)
-
-```css
-.card {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
-}
-
-.card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-
-.card-front, .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.card-front img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-  background-color: #000;
-}
-
-.card-back video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-```
-
----
-
-## 🖼 Rasm joylash
-
-1. `assets/` papkasiga rasm (`.jpg`, `.png`, `.webp`) joylang.
-2. HTML’da quyidagicha yozing:
-
-```html
-<img src="./assets/image.jpg" alt="My 3D Image" />
-```
-
----
-
-## 🎥 Video joylash
-
-1. `assets/` papkasiga video (`.mp4`, `.webm`) faylni saqlang.
-2. HTML’da:
-
-```html
-<video src="./assets/video.mp4" autoplay muted loop></video>
-```
-
-✅ `autoplay`, `muted`, `loop` atributlari videoni avtomatik va qayta-qayta o‘ynatish uchun kerak.
-
----
 
 ## 🧪 Namuna rasm va video
 
 | Old taraf (Rasm) | Orqa taraf (Video) |
 |------------------|--------------------|
-| ![Card Front](./assets/sample-front.jpg) | ![Card Back](./assets/sample-back.gif) |
+| ![Card Front](./img/image.png) | ![Card Back](./admin/2025-06-19%2012-33-19.mp4) |
 
 > Eslatma: GitHub’da video preview to‘liq ko‘rinmaydi, lekin loyihangizda `.mp4` to‘liq o‘ynaydi.
 
@@ -153,7 +65,7 @@ cd 3d-card-project
 ## 📬 Muallif bilan bog‘lanish
 
 - **Ism:** ASLWEX King
-- **Telegram:** [@asldeveloper](https://t.me/asldeveloper)
+- **Telegram:** [@asldeveloper](https://t.me/knyaz_blvck)
 - **GitHub:** [AslDeveloper07](https://github.com/AslDeveloper07)
 
 ---
@@ -163,5 +75,3 @@ cd 3d-card-project
 Ushbu loyiha **MIT License** asosida tarqatiladi. Istagancha foydalanishingiz mumkin.
 
 ---
-
-> 3D karta loyihasi ta'lim, portfolio, e-commerce yoki video prewievlar uchun juda foydali.
